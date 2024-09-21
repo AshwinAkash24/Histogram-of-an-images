@@ -82,6 +82,7 @@ plt.show()
 ![alt text](image-4.png)
 ![alt text](image-5.png)
 ### Histogram Equalization of Grayscale Image.
+## Gray Image:
 ```
 gray_image = cv2.imread("vijay.jpg")
 grey=cv2.cvtColor(gray_image,cv2.COLOR_BGR2GRAY)
@@ -95,6 +96,7 @@ plt.imshow(equ)
 plt.show()
 ```
 ![alt text](image-7.png)
+## Color Image:
 ```
 color_image=cv2.imread('ajith1.jpg')
 grey=cv2.cvtColor(color_image,cv2.COLOR_BGR2GRAY)
